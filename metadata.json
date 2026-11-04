@@ -1,0 +1,6 @@
+{
+  "name": "Links Úteis do Jeannzão",
+  "description": "Ferramentas, cursos e materiais para você criar, aprender e faturar.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
