@@ -3,7 +3,7 @@ export interface LinkItem {
   title: string;
   description: string;
   url: string;
-  iconType: 'qrcode' | 'nfc-coin' | 'nfc-chip' | 'code-laptop' | 'canva-palette' | 'pix-wifi-zap' | 'nfc-plaque' | 'influencer-mega';
+  imageUrl: string;
   featured?: boolean;
   accentColor: string;
 }
@@ -14,7 +14,7 @@ export const LINKS_DATA: LinkItem[] = [
     title: 'DINÂMICO PRO',
     description: 'Sistema profissional para criar plaquinhas NFC com QR Codes dinâmicos.',
     url: 'https://dinamicopro-pi.vercel.app',
-    iconType: 'qrcode',
+    imageUrl: 'https://i.postimg.cc/SxdPXtN5/IMG-8023.png',
     featured: true,
     accentColor: '#9D36FF',
   },
@@ -23,7 +23,7 @@ export const LINKS_DATA: LinkItem[] = [
     title: 'MÉTODO 5K COM NFC',
     description: 'Aprenda a ganhar dinheiro vendendo plaquinhas NFC.',
     url: 'https://pay.kiwify.com.br/aZr7HRq',
-    iconType: 'nfc-coin',
+    imageUrl: 'https://i.postimg.cc/0yn46H2L/IMG-8024.webp',
     accentColor: '#F59E0B',
   },
   {
@@ -31,7 +31,7 @@ export const LINKS_DATA: LinkItem[] = [
     title: 'COMPRE SUAS TAGS NFC',
     description: 'Tags NFC para produzir suas próprias plaquinhas.',
     url: 'https://s.shopee.com.br/9zyKZbaX7N',
-    iconType: 'nfc-chip',
+    imageUrl: 'https://i.postimg.cc/cLhzK5LN/IMG-8025.png',
     accentColor: '#A855F7',
   },
   {
@@ -39,7 +39,7 @@ export const LINKS_DATA: LinkItem[] = [
     title: 'LEVEL CODE — CURSO BÁSICO',
     description: 'Aprenda a criar sistemas sem precisar programar.',
     url: 'https://levelcode-three.vercel.app',
-    iconType: 'code-laptop',
+    imageUrl: 'https://i.postimg.cc/bwg5GFwc/IMG-8026.webp',
     accentColor: '#38BDF8',
   },
   {
@@ -47,7 +47,7 @@ export const LINKS_DATA: LinkItem[] = [
     title: 'ARTES EDITÁVEIS NO CANVA',
     description: 'Modelos profissionais de plaquinhas para personalizar.',
     url: 'https://artes2ofc.vercel.app',
-    iconType: 'canva-palette',
+    imageUrl: 'https://i.postimg.cc/NjDnyPjt/IMG-8022.png',
     accentColor: '#EC4899',
   },
   {
@@ -55,7 +55,7 @@ export const LINKS_DATA: LinkItem[] = [
     title: 'ARTES PIX, WI-FI E WHATSAPP',
     description: 'Personalize suas plaquinhas diretamente no Canva.',
     url: 'https://artesplaquinha1.vercel.app',
-    iconType: 'pix-wifi-zap',
+    imageUrl: 'https://i.postimg.cc/0Ncqsywx/F7B92978-67A4-4986-BB8B-E31414E654B0.png',
     accentColor: '#10B981',
   },
   {
@@ -63,7 +63,7 @@ export const LINKS_DATA: LinkItem[] = [
     title: 'ARTES NFC 1.0',
     description: 'Modelos de plaquinhas NFC editáveis no Canva, prontos para personalização.',
     url: 'https://artesnfc-prontas.vercel.app',
-    iconType: 'nfc-plaque',
+    imageUrl: 'https://i.postimg.cc/5twSYX32/179A124B-68B4-4543-BECC-87421FDC9FB6.png',
     accentColor: '#9D36FF',
   },
   {
@@ -71,7 +71,7 @@ export const LINKS_DATA: LinkItem[] = [
     title: 'FÁBRICA DE INFLUENCIADORES',
     description: 'Crie propagandas e conteúdos com influenciadores.',
     url: 'https://fabricadegrana.vercel.app',
-    iconType: 'influencer-mega',
+    imageUrl: 'https://i.postimg.cc/5NhzBxjf/3616B004-6CB0-4374-BA23-4A9F7AD6488F.png',
     accentColor: '#C084FC',
   },
 ];

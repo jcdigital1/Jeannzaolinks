@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 import { ChevronRight } from 'lucide-react';
 import { LinkItem } from '../data/links';
-import { CardIcon3D } from './CardIcon3D';
 
 interface LinkCardProps {
   item: LinkItem;
@@ -75,11 +74,17 @@ export const LinkCard: React.FC<LinkCardProps> = ({ item, index, isActive }) => 
           <div className="absolute inset-0 bg-gradient-to-r from-transparent via-white/[0.04] to-transparent pointer-events-none" />
         )}
 
-        {/* Left Section: 3D Icon & Clean Typography */}
+        {/* Left Section: Frameless 3D Image Icon & Clean Typography */}
         <div className="flex items-center gap-3.5 sm:gap-4 min-w-0 flex-1 pr-2">
-          {/* 3D Icon Container */}
-          <div className="transform transition-transform duration-300 group-hover:scale-105">
-            <CardIcon3D type={item.iconType} featured={item.featured} isActive={isActive} />
+          {/* Icon Image Container - Centered, object-contain, no frames or backgrounds */}
+          <div className="relative flex items-center justify-center shrink-0 w-14 h-14 sm:w-16 sm:h-16">
+            <img
+              src={item.imageUrl}
+              alt={item.title}
+              className="w-full h-full object-contain pointer-events-none select-none transition-transform duration-300 group-hover:scale-105"
+              loading="eager"
+              decoding="async"
+            />
           </div>
 
           {/* Title & Short Description */}

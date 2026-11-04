@@ -127,7 +127,7 @@ export default function App() {
       {/* Discrete, Clean Footer */}
       <footer className="relative z-10 w-full max-w-[440px] mt-12 pb-4 pt-2 flex flex-col items-center justify-center text-center">
         <p className="text-[12px] sm:text-[12.5px] text-slate-400 font-medium tracking-wide">
-          © 2026 Gizão — Todos os direitos reservados.
+          © 2026 Jeannzão — Todos os direitos reservados.
         </p>
       </footer>
     </div>
